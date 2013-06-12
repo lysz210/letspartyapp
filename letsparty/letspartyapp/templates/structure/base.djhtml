@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Let's Party! | {% block title %}Servizio Gestione Eventi{% endblock %}</title>
+		<link rel="stylesheet" type="text/css" href="/static/partyStatic/css/style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Let's Party!</h1>
+				<div id="user">
+					{% block user %}{% endblock %}
+				</div>
+			</div>
+			<div id="page">
+				{% block aside %}{% endblock %}
+				<div id="main">
+					{% block mainTitle %}{% endblock %}
+					{% block main %}{% endblock %}
+				</div>
+			</div>
+			<div id="footer">
+				<div id="credits">
+					Designed by <a href="mailto:lysz210@gmail.com">LingYong Sun</a> &amp; <a href="mailto:francescomarchesin87@gmail.com">Francesco Marchesin</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,6 @@
+﻿questa è una prova di test per Aptana in cartella condivisa
+prova riuscita, testo modificato con l'app per l'editing di file di testo
+quest'altra modifica e' effettuato attraverso aptana
+Verificato
+Cosi abbiamo il nostro sistema personale di progetto
+ok

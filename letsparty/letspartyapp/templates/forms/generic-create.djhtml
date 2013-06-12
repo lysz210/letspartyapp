@@ -1,0 +1,6 @@
+{% extends "structure/base.djhtml" %}
+
+{% block title %}{{ header.title }}{% endblock %}
+{% block mainTitle %}<h1>{{ body.mainTitle }}</h1>{% endblock %}
+{% block aside %}{% if user != "anonym" %}{% include "structure/aside.djhtml" %}{% else %}{% endif %}{% endblock %}
+{% block main %}{% include "forms/generic-form.djhtml"  with action=body.form.action button_value=body.form.button_value button_type=body.form.button_type %}{% endblock %}

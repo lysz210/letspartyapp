@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<title>prova</title>
+<h1>Hello provaTMP!</h1>
+{% comment %}
+{% include tabella %}
+{% endcomment %}
+<p>questo e' l'opzione passata "{{ opt }}"</p>
+<p>questo e' il path della tabella richiesta "{{ tabella }}"</p>

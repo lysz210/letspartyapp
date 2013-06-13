@@ -1,0 +1,13 @@
+<h1>{{ header.title }}</h1>
+<form  method="post" action="{% if action %}{{action}}{% else %}.{% endif %}" id="form" >
+{% csrf_token %}
+{{ formset.management_form }}
+{% for form in formset %}
+<fieldset>
+    <table>
+    	{{form.as_table}}
+    </table>
+    <input type="submit" value="{% firstof button_value "submit"%}">
+</fieldset>
+{% endfor %}
+</form>

@@ -1,0 +1,9 @@
+<form  method="post" action="{% if action %}{{action}}{% else %}.{% endif %}" id="form" >
+{% csrf_token %}
+{{ form }}
+<p>label form {{form.prefix}}</p>
+<p>field name {% firstof form.0.inventario.name form.0.partecipazioni.name %}</p>
+
+<input type="hidden" value="{{ record.id }}" name="id" >
+<input type="submit" value="{% firstof body.form.button_value "submit" %}">
+</form>

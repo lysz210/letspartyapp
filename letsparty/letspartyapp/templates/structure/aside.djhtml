@@ -1,0 +1,6 @@
+<div id="aside">
+	<ul>
+		<li><a href="/letsparty/">I miei Eventi.</a></li>
+		<li><a href="/letsparty/event/create/">Crea nuovo Evento.</a></li>
+	</ul>
+</div>

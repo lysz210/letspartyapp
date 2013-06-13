@@ -1,0 +1,7 @@
+{% extends "structure/base.djhtml" %}
+{{body}}
+{% block title %}{{ header.title }}{% endblock %}
+{% block user %}{{ user }}{% endblock %}
+{% block aside %}{% include "structure/aside.djhtml" %}{% endblock %}
+{% block mainTitle %}<h1>{{ mainTitle }}</h1>{% endblock %}
+{% block main %}{% include "forms/generic-formset.djhtml" with action=body.form.action button_value=body.form.button_value button_type=body.form.button_type %}{% endblock %}

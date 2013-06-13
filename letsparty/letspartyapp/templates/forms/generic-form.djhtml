@@ -1,0 +1,13 @@
+<form  method="post" action="{% if action %}{{action}}{% else %}.{% endif %}" id="form" >
+{% csrf_token %}
+<table>
+{% for field in form %}
+	<tr>
+		<td>{{ field.label_tag }}</td>
+		<td>{{ field }}</td>
+	</tr>
+{% endfor %}
+</table>
+<input type="submit" value="{% if button_value %}{{ button_value }}{% else %}submit{% endif %}">
+
+</form>

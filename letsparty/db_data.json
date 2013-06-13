@@ -1,0 +1,294 @@
+[
+    {
+        "pk": 1, 
+        "model": "letspartyapp.indirizzo", 
+        "fields": {
+            "cap": "31023", 
+            "civico": "3", 
+            "citta": "Marghera", 
+            "nome": "Roma"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "letspartyapp.tipologia", 
+        "fields": {
+            "privata": true, 
+            "descrizione": "ciao mondo", 
+            "nome": "Compleanno"
+        }
+    }, 
+    {  
+        "pk": 1, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "Banfi", 
+            "telefono": "", 
+            "email": "ciao@ciao.ciao", 
+            "nome": "Lino"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "Simpsons", 
+            "telefono": "", 
+            "email": "lisa@simpsons.us", 
+            "nome": "Lisa"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "Lillo", 
+            "telefono": "", 
+            "email": "asd@asd.asd", 
+            "nome": "Barabba"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "rossi", 
+            "telefono": "", 
+            "email": "mario@rossi.it", 
+            "nome": "mario"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "Marchesin", 
+            "telefono": "3939344660", 
+            "email": "francescomarchesin87@gmail.com", 
+            "nome": "Francesco"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "Angela", 
+            "telefono": "", 
+            "email": "alberto@Angela.it", 
+            "nome": "Alberto"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "sun", 
+            "telefono": "", 
+            "email": "lingyong@sun.cn", 
+            "nome": "Lingyong"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "letspartyapp.amministratore", 
+        "fields": {
+            "cognome": "Marchesin", 
+            "telefono": "", 
+            "email": "francesco@marchesin.it", 
+            "nome": "Francesco"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "letspartyapp.partecipante", 
+        "fields": {
+            "cognome": "Marchesin", 
+            "email": "ciao@ciao.ciao", 
+            "nome": "Francesco"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "letspartyapp.partecipante", 
+        "fields": {
+            "cognome": "Sun", 
+            "email": "ciao@ciao.ciao", 
+            "nome": "Lingyong"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "letspartyapp.festa", 
+        "fields": {
+            "ora_fine": "10:00:31", 
+            "nome": "Party!", 
+            "ora_inizio": "10:00:30", 
+            "costo": "34", 
+            "inventario": [], 
+            "location": 1, 
+            "tipologia": 1, 
+            "amministratore": 1, 
+            "data": "2013-06-06"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-09T21:04:18Z", 
+            "amministratore": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T10:22:10.267Z", 
+            "amministratore": 2
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T10:22:10.267Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T11:00:04Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:52:02.689Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:54:26.588Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:54:52.376Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:55:04.027Z", 
+            "amministratore": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:57:45.848Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:58:25.279Z", 
+            "amministratore": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T12:58:25.279Z", 
+            "amministratore": 2
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:03:19.038Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:03:27.808Z", 
+            "amministratore": 2
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:03:37.955Z", 
+            "amministratore": 1
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:22:05.987Z", 
+            "amministratore": 2
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:22:43.343Z", 
+            "amministratore": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:23:31.621Z", 
+            "amministratore": 1
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:25:32.131Z", 
+            "amministratore": 2
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T13:26:20.128Z", 
+            "amministratore": 3
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "letspartyapp.login", 
+        "fields": {
+            "data_accesso": "2013-06-10T14:34:13.900Z", 
+            "amministratore": 8
+        }
+    }
+]

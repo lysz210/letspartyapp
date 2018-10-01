@@ -1,7 +1,7 @@
 letspartyapp
 ===
 
-**year**: 2014
+**year**: 2014  
 **authors**:
 * [Francesco Marchesin](https://github.com/tsk0)
 * [Lingyong Sun](https://github.com/lysz210)
